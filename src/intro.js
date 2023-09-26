@@ -1,8 +1,8 @@
 import React from 'react';
-import { Typography, Stack, Box, Card, CardContent,IconButton } from '@mui/material';
+import { Typography, Stack, Box, CardContent } from '@mui/material';
 import img from './istockphoto-1483060668-612x612.jpg';
 import './App.css';
-import Skill from './skill';
+// import Skill from './skill';
 
 
 export default function Intro() {
