@@ -6,6 +6,7 @@ import traffic from './tr.png'
 import img from './Screenshot (292).png'
 import img1 from './galler.png'
 import img2 from './buz.png'
+import { Typography } from '@mui/material';
 
 export default function Project() {
   const projects = [
@@ -48,6 +49,8 @@ export default function Project() {
   ];
 
   return (
+  <div>
+        <Typography  variant='h6'add sx={{textAlign:"center"}}>Discover my diverse portfolio, showcasing practical applications of my skills and knowledge</Typography>
     <div className="projects-container">
       {projects.map((project, index) => (
         <div className="project-card" key={index}>
@@ -61,6 +64,7 @@ export default function Project() {
           </a>
         </div>
       ))}
+    </div>
     </div>
   );
 }

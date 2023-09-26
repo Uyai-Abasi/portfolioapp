@@ -1,5 +1,6 @@
 import React from 'react';
 import './skill.css'
+import { Typography } from '@mui/material';
 export default function Skill() {
   const skills = [
     {
@@ -22,6 +23,8 @@ export default function Skill() {
   ];
 
   return (
+    <div>
+      <Typography variant='h6' sx={{textAlign:"center"}}>I highlight my expertise in frontend technologies and tools. I specialize in crafting responsive and engaging user interfaces, ensuring seamless user experiences</Typography>
     <div className="skills-grid">
       {skills.map((skill, index) => (
         <div className="skill" key={index}>
@@ -29,6 +32,7 @@ export default function Skill() {
           <p>{skill.description}</p>
         </div>
       ))}
+    </div>
     </div>
   );
 }
