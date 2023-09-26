@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, Stack, Box, Paper } from '@mui/material';
-import ResponsiveAppBar from './appbar';
+// import ResponsiveAppBar from './appbar';
 import './App.css'
 import Intro from './intro';
 import Skill from './skill';
