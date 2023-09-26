@@ -11,7 +11,7 @@ function App() {
   return (
     <>
    
-    <Box className="App" paddingX='36px'>
+    <Box className="App" paddingX='32px'>
       {/* <ResponsiveAppBar /> */}
       <Stack direction="column" alignItems="center" justifyContent="center"   className="container" 
   >
