@@ -16,7 +16,7 @@ export default function ContactMe() {
             color: "#333",
           }}
         >
-          Feel free to reach out to me through any of the social media links above. I'm always open to connect and discuss new opportunities, projects, or just chat about technology and coding.
+          Feel free to reach out to me through any of the social media links below. I'm always open to connect and discuss new opportunities, projects, or just chat about technology and coding.
         </Typography>
     <Stack direction={'row'}  justifyContent={'center'} alignItems={'center'} mb='50px'>
        
