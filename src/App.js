@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Typography, Stack, Box } from '@mui/material';
+import ResponsiveAppBar from './appbar';
+import './App.css'
+import Intro from './intro';
+import Skill from './skill';
+import Project from './project';
+import ContactMe from './contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box className="App">
+      {/* <ResponsiveAppBar /> */}
+      <Stack direction="column" alignItems="center" justifyContent="center"   className="container" 
+  >
+        <Intro />
+      </Stack>
+      <Typography variant='h4' sx={{textAlign:"center",my:"32px"}}>Skills</Typography>
+      <Skill/>
+      <Typography variant='h4'  sx={{textAlign:"center",my:"32px"}}>Projects</Typography>
+      <Project/>
+      <Typography variant='h4'  sx={{textAlign:"center",my:"32px"}}>Contact Me</Typography>
+<ContactMe/>
+    </Box>
   );
 }
 
